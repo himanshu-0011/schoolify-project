@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="schoolify-logo-emblem.png">
+    <link rel="stylesheet" href="create-account-page.css">
+    <script src="create-account-page.js" defer></script>
+    <title>Schoolify - Create Account</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="schoolify-logo-emblem-no-bg.png" alt="Your Website Logo">
+        </a>
+        <a href="index.html" class="logo-text">
+            <img src="schoolify-text-logo-no-bg.jpg" alt="Your Website Logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+    </nav>   
+
+    <div class="container-form">
+        <hr>
+        <br>
+        <img src="schoolify-text-logo-no-bg.jpg" alt="Schoolify">
+
+        <h3>Create Account</h3>
+    
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label>Gender:</label>
+            <div class="radio-group">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email ID">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+
+            <label for="company">Company/Institution:</label>
+            <input type="text" id="company" name="company" placeholder="Your Company/Institution">
+
+            <label for="password">Create Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a Password">
+                
+        <button type="submit" id="createButton">Create</button>
+        </form>
+    </div>
+
+    <div class="fixed-bottom text-center text-light py-0 footercolor">
+        <span class="small"> Made with <span class="trim d-none d-sm-inline-block"> ❤️ </span>
+            by Team Valor </span>
+    </div>
+</body>
+</html> 

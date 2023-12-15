@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="schoolify-logo-emblem.png">
+    <link rel="stylesheet" href="login-page-stp.css">
+    <script src="login-page-stp.js" defer></script>
+    <title>Schoolify - Parent-Login</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="already-user-login-page.html" class="logo">
+            <img src="schoolify-logo-emblem-no-bg.png" alt="Your Website Logo">
+        </a>
+        <!----
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        -->
+        <a href="already-user-login-page.html" class="logo-text">
+            <img src="schoolify-text-logo-no-bg.jpg" alt="Your Website Logo">
+        </a>
+    </nav>   
+
+    <div class="container-form">
+        <hr>    
+        <br>
+        <img src="schoolify-text-logo-no-bg.jpg" alt="Schoolify">
+
+        <h3>Parent Login</h3>
+    
+    <form action="#">
+    <input type="text" id="loginID" name="loginID" placeholder="Login ID">
+    <input type="password" id="password" name="password" placeholder="Password">
+    <div class="g-recaptcha" data-sitekey="6LdqFBkpAAAAAN-88LIRr1iyipC6-ExGL434aFj8"></div>
+    <button type="submit" id="loginButton">Login</button>
+    </form>
+
+    <div class="forget">
+        <a href="#">Forgot Password</a>
+        <a href="#">Forgot Login ID</a>
+        <a href="already-user-login-page.html">Go to Home Page</a>
+    </div>
+
+    </div>
+
+    <div class="fixed-bottom text-center text-light py-0 footercolor">
+        <span class="small"> Made with <span class="trim d-none d-sm-inline-block"> ❤️ </span>
+            by Team Valor </span>
+    </div>
+</body>
+</html>

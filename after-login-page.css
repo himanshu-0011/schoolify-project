@@ -1,0 +1,157 @@
+body {
+    /* Linear gradient from top to bottom */
+    background: linear-gradient(to bottom, #9b34db, #491286);
+    /* Optional: Set the background size to cover the entire viewport */
+    background-size: cover;
+    /* Optional: Set the background attachment to fixed for a fixed background */
+    background-attachment: fixed;
+    /* Optional: Set the text color to contrast with the gradient */
+    color: #fff;
+    /* Optional: Add styles to center content in the middle of the page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* CSS for the navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d7c7e6;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(80, 18, 162, 0.4); /* Add shadow effect */
+}
+
+/* CSS for the logo */
+.logo {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.logo img {
+    height: 65px;
+    margin-left: 0px;
+}
+
+/* CSS for the logo-text */
+.logo-text {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo-text img {
+    height: 40px;
+}
+
+/* CSS for the navigation links */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.navbar ul li a {
+    color: #42316c;
+    text-decoration:wavy;
+    padding: 10px 15px;
+    border-radius: 5px;
+}   
+
+.navbar ul li a:hover{
+    color: #fff;
+}
+
+.text-container {
+    text-align: center; /* Center the text */
+    margin-top: 15x; /* Add 100px margin-top */
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #42316c; /* Set text color to #42316c */
+    font-size: 25px;
+}
+
+.text-block {
+    text-align: center;
+    margin-top: 100px;
+    color: #42316c;
+    font-size: 35px;
+}
+
+.footercolor {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #d7c7e6; /* Change background color as needed */
+    padding:10px;
+    margin-left: -20px;
+    text-align: center; /* Center the text */
+    color: #42316c; /* Set text color to #42316c */
+    box-shadow: 0px 2px 8px 6px rgba(80, 18, 162, 0.40);
+}
+
+.schoolify-heading{
+    color: #f4dcff;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 35px;   
+    text-shadow: 2px 2px 4px #000;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Container for the cards */
+.card-container {
+    display: flex;
+    /* Optional: Add space between cards */
+    gap: 10px;
+}
+
+/* Style for each card */
+.card {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 10px;
+    /* Optional: Set a fixed width for each card */
+    width: 200px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+    color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.card a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img{
+    width:40%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+

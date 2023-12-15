@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Container for the cards */
+.card-container {
+    display: flex;
+    /* Optional: Add space between cards */
+    gap: 10px;
+}
+
+/* Style for each card */
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* Optional: Set a fixed width for each card */
+    width: 200px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img{
+    width:40%;
+    height: auto;
+}
+

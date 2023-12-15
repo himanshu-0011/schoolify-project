@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="schoolify-logo-emblem.png">
+    <link rel="stylesheet" href="blog-news.css">
+    <script src="blog-news.js" defer></script>
+    <title>Schoolify - Blog/News</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="already-user-login-page.html.html" class="logo">
+                <img src="schoolify-logo-emblem-no-bg.png" alt="Your Website Logo">
+            </a>
+    
+            <a href="already-user-login-page.html.html" class="logo-text">
+                <img src="schoolify-text-logo-no-bg.jpg" alt="Your Website Logo">
+            </a>
+        <!--
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        -->
+        <h1>Blogs & News</h1>
+        </nav> 
+    </header>
+
+    <h2 class="articlez">Add your articles and let everyone know!</h2>
+
+    <section>
+        <!-- Form for adding new articles -->
+        <form id="articleForm">
+            <label for="articleTitle">Article Title:</label>
+            <input type="text" id="articleTitle" name="articleTitle" required>
+    
+            <label for="articleImage">Article Image URL:</label>
+            <input type="url" id="articleImage" name="articleImage" required>
+    
+            <label for="articleContent">Article Content/Description:</label>
+            <textarea id="articleContent" name="articleContent" rows="4" required></textarea>
+    
+            <label for="authorName">Your Name:</label>
+            <input type="text" id="authorName" name="authorName" required>
+    
+            <label for="articleLink">Or add a link to an article:</label>
+            <input type="url" id="articleLink" name="articleLink" onchange="updateArticleTitleLink()">
+    
+            <button type="button" onclick="addArticle()">Add Article</button>
+        </form> 
+    
+        <!-- Existing article content -->
+        <article class="post">
+            <img src="https://www.waterford.org/wp-content/uploads/2019/04/iStock-610839440.jpg" alt="Sample Image">
+            <h2 id="existingArticleTitle"><a href="https://varthana.com/school/top-10-ways-you-can-improve-the-quality-of-education-in-your-school/" style="text-decoration: none;">Improving Communication in Schools</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in justo a dui tincidunt posuere id et libero.</p>
+            <p>Suspendisse potenti. Fusce feugiat urna id elit aliquam, nec tincidunt odio vestibulum...</p>
+            <p class="publisher">Published by: Phunsukh Wangdu</p>
+            <p class="post-date">Published on: November 16, 2023</p>
+        </article>
+    
+        <!-- Add new articles dynamically using JavaScript -->
+    </section>
+</body>
+</html>
